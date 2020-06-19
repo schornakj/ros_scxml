@@ -217,7 +217,7 @@ public:
    */
   bool wait(double timeout) const;
 
-signals:
+Q_SIGNALS:
   void state_entered(std::string);
   void state_exited(std::string);
 
